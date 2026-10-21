@@ -19,46 +19,5 @@
 | 11 | [Sorting](Experiment-11-Sorting/program.c) | [Output](Experiment-11-Sorting/output.txt) |
 | 12 | [Hashing](Experiment-12-Hashing/program.c) | [Output](Experiment-12-Hashing/output.txt) |
 
-## Files
 
-Each experiment folder contains `program.c`, `input.txt`, and `output.txt`.
-`output.txt` is a real interactive terminal transcript including typed input.
-`All_Codes_and_Outputs.md` puts every program and its output into one readable file.
 
-## Compile and run
-
-Open a terminal in the experiment folder. With GCC installed:
-
-```sh
-gcc -std=c11 program.c -o program -lm
-./program
-```
-
-On Windows with GCC, run `program.exe` instead of `./program`.
-To use the provided input on Linux/WSL: `./program < input.txt`.
-Redirected input does not echo back, so the layout differs from the interactive transcript.
-
-## Source and scope
-
-Transcribed from the SCSVMV Data Structures and Algorithms Laboratory Manual,
-prepared by PREETHI R, Assistant Professor, Department of CSE.
-PDF headers/footers were removed and wrapped strings / pointer operators repaired.
-The manual's algorithms and behavior were retained. Sample output was regenerated
-from the compiled code rather than copied from the PDF. In particular, the employee
-program exits silently, although the PDF sample includes an exit message.
-
-All 12 programs compiled with GCC in C11 mode and passed the included sample run.
-These are teaching examples, not fully validated applications: use well-formed
-inputs within array capacities. The infix example uses single-character operands
-and treats repeated `^` operators as left-associative as in the manual; the postfix
-example uses single-digit operands. General invalid-input behavior is not tested.
-
-## Upload to GitHub
-
-1. Extract the downloaded ZIP.
-2. Open the extracted `DSA-Lab` folder.
-3. In your GitHub repository, choose **Add file > Upload files**.
-4. Drag the contents of `DSA-Lab` into the upload area and commit the changes.
-
-If your assessment specifically requires screenshots, run the programs on your
-computer and add your own terminal screenshots to the matching experiment folders.
