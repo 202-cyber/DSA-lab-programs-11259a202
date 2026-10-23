@@ -6,7 +6,7 @@
 
 | No. | Program | Sample run |
 | --- | --- | --- |
-| 1 | [Array Operations](Experiment-01-Array_Operations/program.c) [Output](Experiment-01-Array_Operations/output.txt) |
+| 1 | [Array Operations](Experiment-01-Array_Operations/program.c)|[Output](Experiment-01-Array_Operations/output.txt) |
 | 2 | [Employee Records](Experiment-02-Employee_Records/program.c) |[Output](Experiment-02-Employee_Records/output.txt) |
 | 3 | [Infix to Postfix](Experiment-03-Infix_to_Postfix/program.c) |[Output](Experiment-03-Infix_to_Postfix/output.txt) |
 | 4 | [Postfix Evaluation](Experiment-04-Postfix_Evaluation/program.c) |[Output](Experiment-04-Postfix_Evaluation/output.txt) |
